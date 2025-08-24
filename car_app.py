@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import math
 from ultralytics import YOLO
-from sort import Sort
+from sort import *
 import tempfile
 import os
 from PIL import Image
@@ -427,4 +427,5 @@ st.markdown("""
 
 # Footer
 st.markdown("---")
+
 st.caption("Built with YOLOv8, SORT tracker, and Streamlit")
