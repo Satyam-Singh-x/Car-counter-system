@@ -1,13 +1,5 @@
-# requirements.txt for Python 3.13 compatibility
 streamlit==1.32.0
 ultralytics==8.0.200
 opencv-python-headless==4.9.0.80
-numpy==1.26.4  # Explicitly use a version that supports Python 3.13
-Pillow==10.0.1
-filterpy==1.4.5
-scipy==1.11.4
-matplotlib==3.8.0  # Updated for Python 3.13 compatibility
-seaborn==0.13.2
-torch==2.2.0  # Updated version for better compatibility
-torchvision==0.17.0
-tqdm==4.66.1
+numpy>=1.26.0
+Pillow>=10.0.0
